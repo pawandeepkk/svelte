@@ -8,16 +8,14 @@
 <Header />
 
 <Card>
-  <Saos
-    animation={"fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both"}
-  >
+  <Saos animation={"fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both"}>
     <div class="text1">
       <p>Almost every business in the country is a small business.</p>
     </div>
   </Saos>
 
   <Saos
-    animation={"puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both"}
+    animation={"puff-in-center 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both"}
     animation_out={"slide-out-elliptic-top-bck 0.7s ease-in both"}
     top={250}
     bottom={250}
@@ -29,12 +27,21 @@
     </div>
   </Saos>
 
-  <div class="text3">
-    <p>
-      They provide services that make our day to day lives work & are the
-      lifeblood of our economy.
-    </p>
-  </div>
+  <Saos
+    animation={"scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
+  >
+    <div class="text3">
+      <p>
+        Small businesses provide services that make our day to day lives work.
+      </p>
+    </div>
+
+    <div class="text3">
+      <p>
+        <b>They are the lifeblood of our economy.</b>
+      </p>
+    </div>
+  </Saos>
 </Card>
 
 <style>
@@ -56,6 +63,16 @@
     max-width: 500px;
     padding-left: 100px;
     font-size: 50px;
+  }
+
+  .text3 {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: flex-end;
+    font-size: 50px;
+    max-width: 500px;
+    margin-left: 800px;
   }
 
   /* ----------------------------------------------
