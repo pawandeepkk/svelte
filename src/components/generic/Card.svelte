@@ -1,4 +1,5 @@
 <script>
+
 </script>
 
 <!-- html -->
@@ -7,7 +8,10 @@
 </div>
 
 <style>
-  .card {
-    background-color: navy;
+  .card{
+    background-image: linear-gradient(to top right, #040c49, #4435b7) ;
+    padding: 20px;
+    border-radius: 60px;
+    
   }
 </style>
